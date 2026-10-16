@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+.pytest-tmp/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data + training outputs (regenerable)
+data/
+out/
+out_mnist/
+out_cifar/
+out_cifar_cond/
+_fid_cache/
+evaluation_runs/
+fid_result.txt
+fid_cond_result.txt
+*.png
+*.pt
+*.log
+losses.json
+# ...except the curated README figures
+!assets/*.png
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
